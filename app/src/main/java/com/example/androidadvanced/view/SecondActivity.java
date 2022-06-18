@@ -52,15 +52,4 @@ public class SecondActivity extends AppCompatActivity {
         editor.putString("confirm", confirm);
         editor.apply();
     }
-
-//    String loadEmail() {
-//        SharedPreferences prefs = getApplicationContext().getSharedPreferences("MyPref", MODE_PRIVATE);
-//        String name = prefs.getString("name", "pdp@gmail.com");
-//        String email = prefs.getString("email", "pdp@gmail.com");
-//        String password = prefs.getString("password", "pdp@gmail.com");
-//        String confirm = prefs.getString("confirm", "pdp@gmail.com");
-//        return name;
-//    }
-
-
 }
